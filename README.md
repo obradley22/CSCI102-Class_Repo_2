@@ -1,1 +1,22 @@
-# CSCI102-Class_Repo_2
+# METHOD USED
+# Paris Porter Bradley
+# CSCI 102 – Section E
+# Week 12 - Part A
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#

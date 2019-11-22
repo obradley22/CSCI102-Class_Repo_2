@@ -25,3 +25,21 @@ def FindWordCount(list1,string):
         if string in i:
             count+=1
     return count
+
+def ScoreFinder(list1, list2, string):
+    for i in range(len(list1)):
+        if list1[i].lower() == string.lower():
+            print('OUTPUT',list1[i],'got a score of',list2[i])
+            return
+    print('OUTPUT player not found')
+    return
+
+def Union(list1,list2):
+    printable=[]
+    for i in list1:
+        if i not in printable:
+            printable.append(i)
+    for j in list2:
+        if j not in printable:
+            printable.append(j)
+    return printable

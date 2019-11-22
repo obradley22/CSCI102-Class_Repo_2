@@ -43,3 +43,18 @@ def Union(list1,list2):
         if j not in printable:
             printable.append(j)
     return printable
+
+def Intersection(list1, list2):
+    intersection=[]
+    for i in list1:
+        for j in list2:
+            if i == j:
+                intersection.append(i)
+    return intersection
+
+def NotIn(list1,list2):
+    unique=[]
+    for i in list1:
+        if i not in list2:
+            unique.append(i)
+    return unique

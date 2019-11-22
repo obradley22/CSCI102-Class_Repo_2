@@ -1,3 +1,4 @@
+# https://github.com/obradley22/CSCI102-Class_Repo_2.git
 # Paris Porter Bradley
 # ​CSCI 102 – Section E
 # Week 12 - Part A
@@ -8,7 +9,7 @@ def PrintOutput(string):
 def LoadFile(file):
     with open(file) as file_text:
         lines = file_text.readlines()
-    return linesgit 
+    return lines
 
 def UpdateString(my_string, letter, index):
     my_list = []
@@ -18,13 +19,13 @@ def UpdateString(my_string, letter, index):
     new_string="".join(my_list)
     return print("OUTPUT",new_string)
 
-
 def FindWordCount(list1,string):
     count=0
     for i in list1:
         if string in i:
             count+=1
     return count
+
 
 def ScoreFinder(list1, list2, string):
     for i in range(len(list1)):
